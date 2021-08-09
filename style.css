@@ -1,0 +1,79 @@
+.sketchboard16 {
+    display: grid;
+    width: 512px;
+    height: 512px;
+    grid-template-columns: repeat(auto-fill, 16px);
+    grid-template-rows: repeat(auto-fill, 16px);
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.sketchboard32 {
+    display: grid;
+    width: 512px;
+    height: 512px;
+    grid-template-columns: repeat(auto-fill, 32px);
+    grid-template-rows: repeat(auto-fill, 32px);
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.sketchboard64 {
+    display: grid;
+    width: 512px;
+    height: 512px;
+    grid-template-columns: repeat(auto-fill, 64px);
+    grid-template-rows: repeat(auto-fill, 64px);
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.sketchboard128 {
+    display: grid;
+    width: 512px;
+    height: 512px;
+    grid-template-columns: repeat(auto-fill, 128px);
+    grid-template-rows: repeat(auto-fill, 128px);
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.sketchboard256 {
+    display: grid;
+    width: 512px;
+    height: 512px;
+    grid-template-columns: repeat(auto-fill, 256px);
+    grid-template-rows: repeat(auto-fill, 256px);
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.inpoots {
+    display: flex;
+    padding: 5px;
+}
+
+#clearBtn, #colorWheel {
+    width: 64px;
+    height: 32px;
+    margin: 5px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cell {
+    border: 1px solid gray;
+
+}
+
+.slidercontainer {
+    margin-top:5px;
+}
